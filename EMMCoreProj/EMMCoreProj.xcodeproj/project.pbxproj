@@ -8,36 +8,73 @@
 
 /* Begin PBXBuildFile section */
 		1D14D408736BC850E8111394 /* libPods-EMMCoreProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5F4EC0AC75BCE04628F59B /* libPods-EMMCoreProj.a */; };
-		74D4F9391D75347A00C9E813 /* EMMBusMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9381D75347A00C9E813 /* EMMBusMediatorTipViewController.m */; };
+		74D4F9E51D755CF000C9E813 /* emmcore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74D4F9B11D755CF000C9E813 /* emmcore.bundle */; };
+		74D4F9E61D755CF000C9E813 /* EMMBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9B51D755CF000C9E813 /* EMMBusMediator.m */; };
+		74D4F9E71D755CF000C9E813 /* EMMBusMediatorTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9B81D755CF000C9E813 /* EMMBusMediatorTipViewController.m */; };
+		74D4F9E81D755CF000C9E813 /* EMMDataAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9BB1D755CF000C9E813 /* EMMDataAccessor.m */; };
+		74D4F9E91D755CF000C9E813 /* EMMFileDataAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9BD1D755CF000C9E813 /* EMMFileDataAccessor.m */; };
+		74D4F9EA1D755CF000C9E813 /* EMMHTTPDataAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9BF1D755CF000C9E813 /* EMMHTTPDataAccessor.m */; };
+		74D4F9EB1D755CF000C9E813 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9C21D755CF000C9E813 /* UIImage+Bundle.m */; };
+		74D4F9EC1D755CF000C9E813 /* UIAlertController+EMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9C61D755CF000C9E813 /* UIAlertController+EMM.m */; };
+		74D4F9ED1D755CF000C9E813 /* EMMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9C91D755CF000C9E813 /* EMMAnimation.m */; };
+		74D4F9EE1D755CF000C9E813 /* EMMQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9CC1D755CF000C9E813 /* EMMQRCodeViewController.m */; };
+		74D4F9EF1D755CF000C9E813 /* EMMDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9D01D755CF000C9E813 /* EMMDeviceInfo.m */; };
+		74D4F9F01D755CF000C9E813 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9D21D755CF000C9E813 /* UIDevice-Hardware.m */; };
+		74D4F9F11D755CF000C9E813 /* EMMEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9D51D755CF000C9E813 /* EMMEncrypt.m */; };
+		74D4F9F21D755CF000C9E813 /* EMMNetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9D81D755CF000C9E813 /* EMMNetConnection.m */; };
+		74D4F9F31D755CF000C9E813 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9DA1D755CF000C9E813 /* Reachability.m */; };
+		74D4F9F41D755CF000C9E813 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9DD1D755CF000C9E813 /* UIColor+HexString.m */; };
+		74D4F9F51D755CF000C9E813 /* EMMApplicationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9E01D755CF000C9E813 /* EMMApplicationContext.m */; };
+		74D4F9F61D755CF000C9E813 /* EMMStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9E21D755CF000C9E813 /* EMMStorage.m */; };
+		74D4F9F71D755CF000C9E813 /* EMMW3FolderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F9E41D755CF000C9E813 /* EMMW3FolderManager.m */; };
 		74D7EF401D752770002E8F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EF3F1D752770002E8F93 /* main.m */; };
 		74D7EF431D752770002E8F93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EF421D752770002E8F93 /* AppDelegate.m */; };
 		74D7EF461D752770002E8F93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EF451D752770002E8F93 /* ViewController.m */; };
 		74D7EF491D752770002E8F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D7EF471D752770002E8F93 /* Main.storyboard */; };
 		74D7EF4B1D752770002E8F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D7EF4A1D752770002E8F93 /* Assets.xcassets */; };
 		74D7EF4E1D752770002E8F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D7EF4C1D752770002E8F93 /* LaunchScreen.storyboard */; };
-		74D7F0001D752A85002E8F93 /* EMMDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFD81D752A85002E8F93 /* EMMDeviceInfo.m */; };
-		74D7F0011D752A85002E8F93 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFDA1D752A85002E8F93 /* UIDevice-Hardware.m */; };
-		74D7F0021D752A85002E8F93 /* EMMEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFDD1D752A85002E8F93 /* EMMEncrypt.m */; };
-		74D7F0041D752A85002E8F93 /* EMMNetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFE41D752A85002E8F93 /* EMMNetConnection.m */; };
-		74D7F0051D752A85002E8F93 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFE61D752A85002E8F93 /* Reachability.m */; };
-		74D7F0061D752A85002E8F93 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFE91D752A85002E8F93 /* UIColor+HexString.m */; };
-		74D7F0071D752A85002E8F93 /* EMMApplicationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFEC1D752A85002E8F93 /* EMMApplicationContext.m */; };
-		74D7F0081D752A85002E8F93 /* EMMStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFEE1D752A85002E8F93 /* EMMStorage.m */; };
-		74D7F0091D752A85002E8F93 /* EMMW3FolderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7EFF01D752A85002E8F93 /* EMMW3FolderManager.m */; };
-		74D7F00C1D752C90002E8F93 /* EMMBusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7F00B1D752C90002E8F93 /* EMMBusMediator.m */; };
-		74D7F0191D752CBF002E8F93 /* UIAlertController+EMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7F0111D752CBF002E8F93 /* UIAlertController+EMM.m */; };
-		74D7F01A1D752CBF002E8F93 /* EMMAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7F0141D752CBF002E8F93 /* EMMAnimation.m */; };
-		74D7F01B1D752CBF002E8F93 /* emm_round_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D7F0161D752CBF002E8F93 /* emm_round_back@2x.png */; };
-		74D7F01C1D752CBF002E8F93 /* EMMQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7F0181D752CBF002E8F93 /* EMMQRCodeViewController.m */; };
-		74D7F0251D752CE6002E8F93 /* EMMDataAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7F01F1D752CE6002E8F93 /* EMMDataAccessor.m */; };
-		74D7F0261D752CE6002E8F93 /* EMMFileDataAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7F0211D752CE6002E8F93 /* EMMFileDataAccessor.m */; };
-		74D7F0271D752CE6002E8F93 /* EMMHTTPDataAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D7F0241D752CE6002E8F93 /* EMMHTTPDataAccessor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		483D29C5B6D938488B4C4D71 /* Pods-EMMCoreProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMMCoreProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMMCoreProj/Pods-EMMCoreProj.debug.xcconfig"; sourceTree = "<group>"; };
-		74D4F9371D75347A00C9E813 /* EMMBusMediatorTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMMBusMediatorTipViewController.h; path = BusMediator/EMMBusMediatorTipViewController.h; sourceTree = "<group>"; };
-		74D4F9381D75347A00C9E813 /* EMMBusMediatorTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMMBusMediatorTipViewController.m; path = BusMediator/EMMBusMediatorTipViewController.m; sourceTree = "<group>"; };
+		74D4F9B11D755CF000C9E813 /* emmcore.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = emmcore.bundle; sourceTree = "<group>"; };
+		74D4F9B41D755CF000C9E813 /* EMMBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMBusMediator.h; sourceTree = "<group>"; };
+		74D4F9B51D755CF000C9E813 /* EMMBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMBusMediator.m; sourceTree = "<group>"; };
+		74D4F9B61D755CF000C9E813 /* EMMBusMediatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMBusMediatorProtocol.h; sourceTree = "<group>"; };
+		74D4F9B71D755CF000C9E813 /* EMMBusMediatorTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMBusMediatorTipViewController.h; sourceTree = "<group>"; };
+		74D4F9B81D755CF000C9E813 /* EMMBusMediatorTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMBusMediatorTipViewController.m; sourceTree = "<group>"; };
+		74D4F9BA1D755CF000C9E813 /* EMMDataAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMDataAccessor.h; sourceTree = "<group>"; };
+		74D4F9BB1D755CF000C9E813 /* EMMDataAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMDataAccessor.m; sourceTree = "<group>"; };
+		74D4F9BC1D755CF000C9E813 /* EMMFileDataAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMFileDataAccessor.h; sourceTree = "<group>"; };
+		74D4F9BD1D755CF000C9E813 /* EMMFileDataAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMFileDataAccessor.m; sourceTree = "<group>"; };
+		74D4F9BE1D755CF000C9E813 /* EMMHTTPDataAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMHTTPDataAccessor.h; sourceTree = "<group>"; };
+		74D4F9BF1D755CF000C9E813 /* EMMHTTPDataAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMHTTPDataAccessor.m; sourceTree = "<group>"; };
+		74D4F9C11D755CF000C9E813 /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
+		74D4F9C21D755CF000C9E813 /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
+		74D4F9C51D755CF000C9E813 /* UIAlertController+EMM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+EMM.h"; sourceTree = "<group>"; };
+		74D4F9C61D755CF000C9E813 /* UIAlertController+EMM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+EMM.m"; sourceTree = "<group>"; };
+		74D4F9C81D755CF000C9E813 /* EMMAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMAnimation.h; sourceTree = "<group>"; };
+		74D4F9C91D755CF000C9E813 /* EMMAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMAnimation.m; sourceTree = "<group>"; };
+		74D4F9CB1D755CF000C9E813 /* EMMQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMQRCodeViewController.h; sourceTree = "<group>"; };
+		74D4F9CC1D755CF000C9E813 /* EMMQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMQRCodeViewController.m; sourceTree = "<group>"; };
+		74D4F9CF1D755CF000C9E813 /* EMMDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMDeviceInfo.h; sourceTree = "<group>"; };
+		74D4F9D01D755CF000C9E813 /* EMMDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMDeviceInfo.m; sourceTree = "<group>"; };
+		74D4F9D11D755CF000C9E813 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
+		74D4F9D21D755CF000C9E813 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
+		74D4F9D41D755CF000C9E813 /* EMMEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMEncrypt.h; sourceTree = "<group>"; };
+		74D4F9D51D755CF000C9E813 /* EMMEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMEncrypt.m; sourceTree = "<group>"; };
+		74D4F9D71D755CF000C9E813 /* EMMNetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMNetConnection.h; sourceTree = "<group>"; };
+		74D4F9D81D755CF000C9E813 /* EMMNetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMNetConnection.m; sourceTree = "<group>"; };
+		74D4F9D91D755CF000C9E813 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		74D4F9DA1D755CF000C9E813 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		74D4F9DC1D755CF000C9E813 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		74D4F9DD1D755CF000C9E813 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		74D4F9DF1D755CF000C9E813 /* EMMApplicationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMApplicationContext.h; sourceTree = "<group>"; };
+		74D4F9E01D755CF000C9E813 /* EMMApplicationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMApplicationContext.m; sourceTree = "<group>"; };
+		74D4F9E11D755CF000C9E813 /* EMMStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMStorage.h; sourceTree = "<group>"; };
+		74D4F9E21D755CF000C9E813 /* EMMStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMStorage.m; sourceTree = "<group>"; };
+		74D4F9E31D755CF000C9E813 /* EMMW3FolderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMW3FolderManager.h; sourceTree = "<group>"; };
+		74D4F9E41D755CF000C9E813 /* EMMW3FolderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMW3FolderManager.m; sourceTree = "<group>"; };
 		74D7EF3B1D752770002E8F93 /* EMMCoreProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMMCoreProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D7EF3F1D752770002E8F93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74D7EF411D752770002E8F93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,40 +85,6 @@
 		74D7EF4A1D752770002E8F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D7EF4D1D752770002E8F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D7EF4F1D752770002E8F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74D7EFD71D752A85002E8F93 /* EMMDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMDeviceInfo.h; sourceTree = "<group>"; };
-		74D7EFD81D752A85002E8F93 /* EMMDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMDeviceInfo.m; sourceTree = "<group>"; };
-		74D7EFD91D752A85002E8F93 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
-		74D7EFDA1D752A85002E8F93 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
-		74D7EFDC1D752A85002E8F93 /* EMMEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMEncrypt.h; sourceTree = "<group>"; };
-		74D7EFDD1D752A85002E8F93 /* EMMEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMEncrypt.m; sourceTree = "<group>"; };
-		74D7EFE31D752A85002E8F93 /* EMMNetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMNetConnection.h; sourceTree = "<group>"; };
-		74D7EFE41D752A85002E8F93 /* EMMNetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMNetConnection.m; sourceTree = "<group>"; };
-		74D7EFE51D752A85002E8F93 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		74D7EFE61D752A85002E8F93 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		74D7EFE81D752A85002E8F93 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
-		74D7EFE91D752A85002E8F93 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
-		74D7EFEB1D752A85002E8F93 /* EMMApplicationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMApplicationContext.h; sourceTree = "<group>"; };
-		74D7EFEC1D752A85002E8F93 /* EMMApplicationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMApplicationContext.m; sourceTree = "<group>"; };
-		74D7EFED1D752A85002E8F93 /* EMMStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMStorage.h; sourceTree = "<group>"; };
-		74D7EFEE1D752A85002E8F93 /* EMMStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMStorage.m; sourceTree = "<group>"; };
-		74D7EFEF1D752A85002E8F93 /* EMMW3FolderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMW3FolderManager.h; sourceTree = "<group>"; };
-		74D7EFF01D752A85002E8F93 /* EMMW3FolderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMW3FolderManager.m; sourceTree = "<group>"; };
-		74D7F00A1D752C90002E8F93 /* EMMBusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMMBusMediator.h; path = BusMediator/EMMBusMediator.h; sourceTree = "<group>"; };
-		74D7F00B1D752C90002E8F93 /* EMMBusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMMBusMediator.m; path = BusMediator/EMMBusMediator.m; sourceTree = "<group>"; };
-		74D7F0101D752CBF002E8F93 /* UIAlertController+EMM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+EMM.h"; sourceTree = "<group>"; };
-		74D7F0111D752CBF002E8F93 /* UIAlertController+EMM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+EMM.m"; sourceTree = "<group>"; };
-		74D7F0131D752CBF002E8F93 /* EMMAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMAnimation.h; sourceTree = "<group>"; };
-		74D7F0141D752CBF002E8F93 /* EMMAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMAnimation.m; sourceTree = "<group>"; };
-		74D7F0161D752CBF002E8F93 /* emm_round_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emm_round_back@2x.png"; sourceTree = "<group>"; };
-		74D7F0171D752CBF002E8F93 /* EMMQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMQRCodeViewController.h; sourceTree = "<group>"; };
-		74D7F0181D752CBF002E8F93 /* EMMQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMQRCodeViewController.m; sourceTree = "<group>"; };
-		74D7F01E1D752CE6002E8F93 /* EMMDataAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMDataAccessor.h; sourceTree = "<group>"; };
-		74D7F01F1D752CE6002E8F93 /* EMMDataAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMDataAccessor.m; sourceTree = "<group>"; };
-		74D7F0201D752CE6002E8F93 /* EMMFileDataAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMFileDataAccessor.h; sourceTree = "<group>"; };
-		74D7F0211D752CE6002E8F93 /* EMMFileDataAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMFileDataAccessor.m; sourceTree = "<group>"; };
-		74D7F0231D752CE6002E8F93 /* EMMHTTPDataAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMHTTPDataAccessor.h; sourceTree = "<group>"; };
-		74D7F0241D752CE6002E8F93 /* EMMHTTPDataAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMHTTPDataAccessor.m; sourceTree = "<group>"; };
-		74D7F0281D752E31002E8F93 /* EMMBusMediatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EMMBusMediatorProtocol.h; path = BusMediator/EMMBusMediatorProtocol.h; sourceTree = "<group>"; };
 		9D5F4EC0AC75BCE04628F59B /* libPods-EMMCoreProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMMCoreProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68CF8118140FA2F49E7622E /* Pods-EMMCoreProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMMCoreProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMMCoreProj/Pods-EMMCoreProj.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,10 +110,168 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		74D4F9B01D755CF000C9E813 /* EMMCore */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9B11D755CF000C9E813 /* emmcore.bundle */,
+				74D4F9B21D755CF000C9E813 /* ProductFoundation */,
+				74D4F9CD1D755CF000C9E813 /* PublicFoundation */,
+			);
+			name = EMMCore;
+			path = ../EMMCore;
+			sourceTree = "<group>";
+		};
+		74D4F9B21D755CF000C9E813 /* ProductFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9B31D755CF000C9E813 /* BusMediator */,
+				74D4F9B91D755CF000C9E813 /* Data */,
+				74D4F9C01D755CF000C9E813 /* Others */,
+				74D4F9C31D755CF000C9E813 /* UI */,
+			);
+			path = ProductFoundation;
+			sourceTree = "<group>";
+		};
+		74D4F9B31D755CF000C9E813 /* BusMediator */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9B41D755CF000C9E813 /* EMMBusMediator.h */,
+				74D4F9B51D755CF000C9E813 /* EMMBusMediator.m */,
+				74D4F9B61D755CF000C9E813 /* EMMBusMediatorProtocol.h */,
+				74D4F9B71D755CF000C9E813 /* EMMBusMediatorTipViewController.h */,
+				74D4F9B81D755CF000C9E813 /* EMMBusMediatorTipViewController.m */,
+			);
+			path = BusMediator;
+			sourceTree = "<group>";
+		};
+		74D4F9B91D755CF000C9E813 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9BA1D755CF000C9E813 /* EMMDataAccessor.h */,
+				74D4F9BB1D755CF000C9E813 /* EMMDataAccessor.m */,
+				74D4F9BC1D755CF000C9E813 /* EMMFileDataAccessor.h */,
+				74D4F9BD1D755CF000C9E813 /* EMMFileDataAccessor.m */,
+				74D4F9BE1D755CF000C9E813 /* EMMHTTPDataAccessor.h */,
+				74D4F9BF1D755CF000C9E813 /* EMMHTTPDataAccessor.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		74D4F9C01D755CF000C9E813 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9C11D755CF000C9E813 /* UIImage+Bundle.h */,
+				74D4F9C21D755CF000C9E813 /* UIImage+Bundle.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		74D4F9C31D755CF000C9E813 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9C41D755CF000C9E813 /* Alert */,
+				74D4F9C71D755CF000C9E813 /* Animation */,
+				74D4F9CA1D755CF000C9E813 /* QRCode */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		74D4F9C41D755CF000C9E813 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9C51D755CF000C9E813 /* UIAlertController+EMM.h */,
+				74D4F9C61D755CF000C9E813 /* UIAlertController+EMM.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		74D4F9C71D755CF000C9E813 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9C81D755CF000C9E813 /* EMMAnimation.h */,
+				74D4F9C91D755CF000C9E813 /* EMMAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		74D4F9CA1D755CF000C9E813 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9CB1D755CF000C9E813 /* EMMQRCodeViewController.h */,
+				74D4F9CC1D755CF000C9E813 /* EMMQRCodeViewController.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		74D4F9CD1D755CF000C9E813 /* PublicFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9CE1D755CF000C9E813 /* Device */,
+				74D4F9D31D755CF000C9E813 /* Encrypt */,
+				74D4F9D61D755CF000C9E813 /* Net */,
+				74D4F9DB1D755CF000C9E813 /* Others */,
+				74D4F9DE1D755CF000C9E813 /* Storage */,
+			);
+			path = PublicFoundation;
+			sourceTree = "<group>";
+		};
+		74D4F9CE1D755CF000C9E813 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9CF1D755CF000C9E813 /* EMMDeviceInfo.h */,
+				74D4F9D01D755CF000C9E813 /* EMMDeviceInfo.m */,
+				74D4F9D11D755CF000C9E813 /* UIDevice-Hardware.h */,
+				74D4F9D21D755CF000C9E813 /* UIDevice-Hardware.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		74D4F9D31D755CF000C9E813 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9D41D755CF000C9E813 /* EMMEncrypt.h */,
+				74D4F9D51D755CF000C9E813 /* EMMEncrypt.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		74D4F9D61D755CF000C9E813 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9D71D755CF000C9E813 /* EMMNetConnection.h */,
+				74D4F9D81D755CF000C9E813 /* EMMNetConnection.m */,
+				74D4F9D91D755CF000C9E813 /* Reachability.h */,
+				74D4F9DA1D755CF000C9E813 /* Reachability.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		74D4F9DB1D755CF000C9E813 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9DC1D755CF000C9E813 /* UIColor+HexString.h */,
+				74D4F9DD1D755CF000C9E813 /* UIColor+HexString.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		74D4F9DE1D755CF000C9E813 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				74D4F9DF1D755CF000C9E813 /* EMMApplicationContext.h */,
+				74D4F9E01D755CF000C9E813 /* EMMApplicationContext.m */,
+				74D4F9E11D755CF000C9E813 /* EMMStorage.h */,
+				74D4F9E21D755CF000C9E813 /* EMMStorage.m */,
+				74D4F9E31D755CF000C9E813 /* EMMW3FolderManager.h */,
+				74D4F9E41D755CF000C9E813 /* EMMW3FolderManager.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		74D7EF321D752770002E8F93 = {
 			isa = PBXGroup;
 			children = (
-				74D7EFB41D752A85002E8F93 /* EMMCore */,
+				74D4F9B01D755CF000C9E813 /* EMMCore */,
 				74D7EF3D1D752770002E8F93 /* EMMCoreProj */,
 				74D7EF3C1D752770002E8F93 /* Products */,
 				0A0CD81EE69FC995F9CA0E58 /* Pods */,
@@ -148,162 +309,6 @@
 				74D7EF3F1D752770002E8F93 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		74D7EFB41D752A85002E8F93 /* EMMCore */ = {
-			isa = PBXGroup;
-			children = (
-				74D7EFD51D752A85002E8F93 /* PublicBase */,
-				74D7EFB51D752A85002E8F93 /* ProductBase */,
-			);
-			name = EMMCore;
-			path = ../EMMCore;
-			sourceTree = "<group>";
-		};
-		74D7EFB51D752A85002E8F93 /* ProductBase */ = {
-			isa = PBXGroup;
-			children = (
-				74D7F00D1D752C98002E8F93 /* BusMediator */,
-				74D7F01D1D752CE6002E8F93 /* Data */,
-				74D7F00E1D752CBF002E8F93 /* UI */,
-			);
-			path = ProductBase;
-			sourceTree = "<group>";
-		};
-		74D7EFD51D752A85002E8F93 /* PublicBase */ = {
-			isa = PBXGroup;
-			children = (
-				74D7EFD61D752A85002E8F93 /* Device */,
-				74D7EFDB1D752A85002E8F93 /* Encrypt */,
-				74D7EFE21D752A85002E8F93 /* Net */,
-				74D7EFEA1D752A85002E8F93 /* Storage */,
-				74D7EFE71D752A85002E8F93 /* Others */,
-			);
-			path = PublicBase;
-			sourceTree = "<group>";
-		};
-		74D7EFD61D752A85002E8F93 /* Device */ = {
-			isa = PBXGroup;
-			children = (
-				74D7EFD71D752A85002E8F93 /* EMMDeviceInfo.h */,
-				74D7EFD81D752A85002E8F93 /* EMMDeviceInfo.m */,
-				74D7EFD91D752A85002E8F93 /* UIDevice-Hardware.h */,
-				74D7EFDA1D752A85002E8F93 /* UIDevice-Hardware.m */,
-			);
-			path = Device;
-			sourceTree = "<group>";
-		};
-		74D7EFDB1D752A85002E8F93 /* Encrypt */ = {
-			isa = PBXGroup;
-			children = (
-				74D7EFDC1D752A85002E8F93 /* EMMEncrypt.h */,
-				74D7EFDD1D752A85002E8F93 /* EMMEncrypt.m */,
-			);
-			path = Encrypt;
-			sourceTree = "<group>";
-		};
-		74D7EFE21D752A85002E8F93 /* Net */ = {
-			isa = PBXGroup;
-			children = (
-				74D7EFE31D752A85002E8F93 /* EMMNetConnection.h */,
-				74D7EFE41D752A85002E8F93 /* EMMNetConnection.m */,
-				74D7EFE51D752A85002E8F93 /* Reachability.h */,
-				74D7EFE61D752A85002E8F93 /* Reachability.m */,
-			);
-			path = Net;
-			sourceTree = "<group>";
-		};
-		74D7EFE71D752A85002E8F93 /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				74D7EFE81D752A85002E8F93 /* UIColor+HexString.h */,
-				74D7EFE91D752A85002E8F93 /* UIColor+HexString.m */,
-			);
-			path = Others;
-			sourceTree = "<group>";
-		};
-		74D7EFEA1D752A85002E8F93 /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-				74D7EFEB1D752A85002E8F93 /* EMMApplicationContext.h */,
-				74D7EFEC1D752A85002E8F93 /* EMMApplicationContext.m */,
-				74D7EFED1D752A85002E8F93 /* EMMStorage.h */,
-				74D7EFEE1D752A85002E8F93 /* EMMStorage.m */,
-				74D7EFEF1D752A85002E8F93 /* EMMW3FolderManager.h */,
-				74D7EFF01D752A85002E8F93 /* EMMW3FolderManager.m */,
-			);
-			path = Storage;
-			sourceTree = "<group>";
-		};
-		74D7F00D1D752C98002E8F93 /* BusMediator */ = {
-			isa = PBXGroup;
-			children = (
-				74D7F0281D752E31002E8F93 /* EMMBusMediatorProtocol.h */,
-				74D7F00A1D752C90002E8F93 /* EMMBusMediator.h */,
-				74D7F00B1D752C90002E8F93 /* EMMBusMediator.m */,
-				74D4F9371D75347A00C9E813 /* EMMBusMediatorTipViewController.h */,
-				74D4F9381D75347A00C9E813 /* EMMBusMediatorTipViewController.m */,
-			);
-			name = BusMediator;
-			sourceTree = "<group>";
-		};
-		74D7F00E1D752CBF002E8F93 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				74D7F00F1D752CBF002E8F93 /* Alert */,
-				74D7F0121D752CBF002E8F93 /* Animation */,
-				74D7F0151D752CBF002E8F93 /* QRCode */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		74D7F00F1D752CBF002E8F93 /* Alert */ = {
-			isa = PBXGroup;
-			children = (
-				74D7F0101D752CBF002E8F93 /* UIAlertController+EMM.h */,
-				74D7F0111D752CBF002E8F93 /* UIAlertController+EMM.m */,
-			);
-			path = Alert;
-			sourceTree = "<group>";
-		};
-		74D7F0121D752CBF002E8F93 /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				74D7F0131D752CBF002E8F93 /* EMMAnimation.h */,
-				74D7F0141D752CBF002E8F93 /* EMMAnimation.m */,
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		74D7F0151D752CBF002E8F93 /* QRCode */ = {
-			isa = PBXGroup;
-			children = (
-				74D7F0161D752CBF002E8F93 /* emm_round_back@2x.png */,
-				74D7F0171D752CBF002E8F93 /* EMMQRCodeViewController.h */,
-				74D7F0181D752CBF002E8F93 /* EMMQRCodeViewController.m */,
-			);
-			path = QRCode;
-			sourceTree = "<group>";
-		};
-		74D7F01D1D752CE6002E8F93 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				74D7F01E1D752CE6002E8F93 /* EMMDataAccessor.h */,
-				74D7F01F1D752CE6002E8F93 /* EMMDataAccessor.m */,
-				74D7F0201D752CE6002E8F93 /* EMMFileDataAccessor.h */,
-				74D7F0211D752CE6002E8F93 /* EMMFileDataAccessor.m */,
-				74D7F0221D752CE6002E8F93 /* HTTP */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		74D7F0221D752CE6002E8F93 /* HTTP */ = {
-			isa = PBXGroup;
-			children = (
-				74D7F0231D752CE6002E8F93 /* EMMHTTPDataAccessor.h */,
-				74D7F0241D752CE6002E8F93 /* EMMHTTPDataAccessor.m */,
-			);
-			path = HTTP;
 			sourceTree = "<group>";
 		};
 		CF761FCEBE5ED611ED6C7EAD /* Frameworks */ = {
@@ -377,7 +382,7 @@
 			files = (
 				74D7EF4E1D752770002E8F93 /* LaunchScreen.storyboard in Resources */,
 				74D7EF4B1D752770002E8F93 /* Assets.xcassets in Resources */,
-				74D7F01B1D752CBF002E8F93 /* emm_round_back@2x.png in Resources */,
+				74D4F9E51D755CF000C9E813 /* emmcore.bundle in Resources */,
 				74D7EF491D752770002E8F93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,26 +442,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D7F01C1D752CBF002E8F93 /* EMMQRCodeViewController.m in Sources */,
+				74D4F9F11D755CF000C9E813 /* EMMEncrypt.m in Sources */,
+				74D4F9EC1D755CF000C9E813 /* UIAlertController+EMM.m in Sources */,
+				74D4F9E91D755CF000C9E813 /* EMMFileDataAccessor.m in Sources */,
+				74D4F9F21D755CF000C9E813 /* EMMNetConnection.m in Sources */,
+				74D4F9E81D755CF000C9E813 /* EMMDataAccessor.m in Sources */,
 				74D7EF461D752770002E8F93 /* ViewController.m in Sources */,
+				74D4F9EE1D755CF000C9E813 /* EMMQRCodeViewController.m in Sources */,
+				74D4F9ED1D755CF000C9E813 /* EMMAnimation.m in Sources */,
+				74D4F9E61D755CF000C9E813 /* EMMBusMediator.m in Sources */,
+				74D4F9EA1D755CF000C9E813 /* EMMHTTPDataAccessor.m in Sources */,
+				74D4F9F71D755CF000C9E813 /* EMMW3FolderManager.m in Sources */,
+				74D4F9F51D755CF000C9E813 /* EMMApplicationContext.m in Sources */,
+				74D4F9F61D755CF000C9E813 /* EMMStorage.m in Sources */,
+				74D4F9EF1D755CF000C9E813 /* EMMDeviceInfo.m in Sources */,
+				74D4F9EB1D755CF000C9E813 /* UIImage+Bundle.m in Sources */,
+				74D4F9F41D755CF000C9E813 /* UIColor+HexString.m in Sources */,
 				74D7EF431D752770002E8F93 /* AppDelegate.m in Sources */,
-				74D7F0001D752A85002E8F93 /* EMMDeviceInfo.m in Sources */,
-				74D7F01A1D752CBF002E8F93 /* EMMAnimation.m in Sources */,
-				74D4F9391D75347A00C9E813 /* EMMBusMediatorTipViewController.m in Sources */,
-				74D7F00C1D752C90002E8F93 /* EMMBusMediator.m in Sources */,
-				74D7F0191D752CBF002E8F93 /* UIAlertController+EMM.m in Sources */,
-				74D7F0091D752A85002E8F93 /* EMMW3FolderManager.m in Sources */,
-				74D7F0011D752A85002E8F93 /* UIDevice-Hardware.m in Sources */,
-				74D7F0021D752A85002E8F93 /* EMMEncrypt.m in Sources */,
-				74D7F0261D752CE6002E8F93 /* EMMFileDataAccessor.m in Sources */,
-				74D7F0081D752A85002E8F93 /* EMMStorage.m in Sources */,
-				74D7F0041D752A85002E8F93 /* EMMNetConnection.m in Sources */,
-				74D7F0251D752CE6002E8F93 /* EMMDataAccessor.m in Sources */,
-				74D7F0051D752A85002E8F93 /* Reachability.m in Sources */,
-				74D7F0071D752A85002E8F93 /* EMMApplicationContext.m in Sources */,
-				74D7F0271D752CE6002E8F93 /* EMMHTTPDataAccessor.m in Sources */,
-				74D7F0061D752A85002E8F93 /* UIColor+HexString.m in Sources */,
 				74D7EF401D752770002E8F93 /* main.m in Sources */,
+				74D4F9E71D755CF000C9E813 /* EMMBusMediatorTipViewController.m in Sources */,
+				74D4F9F01D755CF000C9E813 /* UIDevice-Hardware.m in Sources */,
+				74D4F9F31D755CF000C9E813 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

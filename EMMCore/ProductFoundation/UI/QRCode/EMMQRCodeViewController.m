@@ -9,6 +9,7 @@
 
 #import "EMMQRCodeViewController.h"
 #import <AVFoundation/AVFoundation.h>
+#import "UIImage+Bundle.h"
 
 @interface EMMQRCodeViewController () <AVCaptureMetadataOutputObjectsDelegate>
 
@@ -32,7 +33,7 @@
     [super viewDidLoad];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setImage:[UIImage imageNamed:@"emm_round_back.png"] forState:UIControlStateNormal];
+    [button setImage:[UIImage imageInEMMBundleNamed:@"round_back.png"] forState:UIControlStateNormal];
     button.frame = CGRectMake(16, 24, 37, 37);
     [button addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];

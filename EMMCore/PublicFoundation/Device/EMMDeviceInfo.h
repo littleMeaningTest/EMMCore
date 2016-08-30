@@ -13,6 +13,6 @@
 + (instancetype)currentDeviceInfo;
 
 - (NSString *)UUID;
-- (NSString *)SSID;
+//- (NSString *)SSID;
 
 @end
